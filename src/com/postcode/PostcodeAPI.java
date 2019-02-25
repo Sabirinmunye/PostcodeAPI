@@ -7,7 +7,6 @@ import java.net.URL;
 import org.json.*;
 
 
-
     public class PostcodeAPI {
         public void getPostcode(String postcode) throws Exception {
             String response = getRequest(postcode);
@@ -27,7 +26,7 @@ import org.json.*;
                 response.append(inputLine);
             }
             in.close();
-            return response.toString(); 
+            return response.toString();
         }
 
         private void parseResponse(String response) {
