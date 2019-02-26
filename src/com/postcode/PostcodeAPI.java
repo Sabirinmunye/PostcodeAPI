@@ -27,6 +27,8 @@ import org.json.*;
             }
             in.close();
             return response.toString();
+
+
         }
 
         private void parseResponse(String response) {
@@ -45,7 +47,7 @@ import org.json.*;
             String adminDistrict = results.getString("admin_district");
             System.out.println("Admin District: " + adminDistrict);
             String parish = results.getString("parish");
-            System.out.println("Parish: " + parish);
+            System.out.println("Parishqqq   : " + parish);
             String adminWard = results.getString("admin_ward");
             System.out.println("Admin Ward: " + adminWard);
         }
